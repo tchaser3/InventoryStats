@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CalculatedInventoryStats" targetNamespace="http://tempuri.org/CalculatedInventoryStats.xsd" xmlns:mstns="http://tempuri.org/CalculatedInventoryStats.xsd" xmlns="http://tempuri.org/CalculatedInventoryStats.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CalculatedInventoryStats" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CalculatedInventoryStats" msprop:Generator_UserDSName="CalculatedInventoryStats">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="inventorystats" msprop:Generator_TableClassName="inventorystatsDataTable" msprop:Generator_TableVarName="tableinventorystats" msprop:Generator_RowChangedName="inventorystatsRowChanged" msprop:Generator_TablePropName="inventorystats" msprop:Generator_RowDeletingName="inventorystatsRowDeleting" msprop:Generator_RowChangingName="inventorystatsRowChanging" msprop:Generator_RowEvHandlerName="inventorystatsRowChangeEventHandler" msprop:Generator_RowDeletedName="inventorystatsRowDeleted" msprop:Generator_RowClassName="inventorystatsRow" msprop:Generator_UserTableName="inventorystats" msprop:Generator_RowEvArgName="inventorystatsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PartID" msprop:Generator_ColumnVarNameInTable="columnPartID" msprop:Generator_ColumnPropNameInRow="PartID" msprop:Generator_ColumnPropNameInTable="PartIDColumn" msprop:Generator_UserColumnName="PartID" type="xs:int" />
+              <xs:element name="PartNumber" msprop:Generator_ColumnVarNameInTable="columnPartNumber" msprop:Generator_ColumnPropNameInRow="PartNumber" msprop:Generator_ColumnPropNameInTable="PartNumberColumn" msprop:Generator_UserColumnName="PartNumber" type="xs:string" />
+              <xs:element name="JDEPartNumber" msprop:Generator_ColumnVarNameInTable="columnJDEPartNumber" msprop:Generator_ColumnPropNameInRow="JDEPartNumber" msprop:Generator_ColumnPropNameInTable="JDEPartNumberColumn" msprop:Generator_UserColumnName="JDEPartNumber" type="xs:string" />
+              <xs:element name="PartDescription" msprop:Generator_ColumnVarNameInTable="columnPartDescription" msprop:Generator_ColumnPropNameInRow="PartDescription" msprop:Generator_ColumnPropNameInTable="PartDescriptionColumn" msprop:Generator_UserColumnName="PartDescription" type="xs:string" />
+              <xs:element name="PeriodOneStarDate" msprop:Generator_ColumnVarNameInTable="columnPeriodOneStarDate" msprop:Generator_ColumnPropNameInRow="PeriodOneStarDate" msprop:Generator_ColumnPropNameInTable="PeriodOneStarDateColumn" msprop:Generator_UserColumnName="PeriodOneStarDate" type="xs:dateTime" />
+              <xs:element name="PeriodOneAvg" msprop:Generator_ColumnVarNameInTable="columnPeriodOneAvg" msprop:Generator_ColumnPropNameInRow="PeriodOneAvg" msprop:Generator_ColumnPropNameInTable="PeriodOneAvgColumn" msprop:Generator_UserColumnName="PeriodOneAvg" type="xs:double" />
+              <xs:element name="PeriodOneCount" msprop:Generator_ColumnVarNameInTable="columnPeriodOneCount" msprop:Generator_ColumnPropNameInRow="PeriodOneCount" msprop:Generator_ColumnPropNameInTable="PeriodOneCountColumn" msprop:Generator_UserColumnName="PeriodOneCount" type="xs:int" />
+              <xs:element name="PeriodOneSD" msprop:Generator_ColumnVarNameInTable="columnPeriodOneSD" msprop:Generator_ColumnPropNameInRow="PeriodOneSD" msprop:Generator_ColumnPropNameInTable="PeriodOneSDColumn" msprop:Generator_UserColumnName="PeriodOneSD" type="xs:double" />
+              <xs:element name="PeriodTwoStartDate" msprop:Generator_ColumnVarNameInTable="columnPeriodTwoStartDate" msprop:Generator_ColumnPropNameInRow="PeriodTwoStartDate" msprop:Generator_ColumnPropNameInTable="PeriodTwoStartDateColumn" msprop:Generator_UserColumnName="PeriodTwoStartDate" type="xs:dateTime" />
+              <xs:element name="PeriodTwoAvg" msprop:Generator_ColumnVarNameInTable="columnPeriodTwoAvg" msprop:Generator_ColumnPropNameInRow="PeriodTwoAvg" msprop:Generator_ColumnPropNameInTable="PeriodTwoAvgColumn" msprop:Generator_UserColumnName="PeriodTwoAvg" type="xs:double" />
+              <xs:element name="PeriodTwoCount" msprop:Generator_ColumnVarNameInTable="columnPeriodTwoCount" msprop:Generator_ColumnPropNameInRow="PeriodTwoCount" msprop:Generator_ColumnPropNameInTable="PeriodTwoCountColumn" msprop:Generator_UserColumnName="PeriodTwoCount" type="xs:int" />
+              <xs:element name="PeriodTwoSD" msprop:Generator_ColumnVarNameInTable="columnPeriodTwoSD" msprop:Generator_ColumnPropNameInRow="PeriodTwoSD" msprop:Generator_ColumnPropNameInTable="PeriodTwoSDColumn" msprop:Generator_UserColumnName="PeriodTwoSD" type="xs:double" />
+              <xs:element name="PeriodThreeStartDate" msprop:Generator_ColumnVarNameInTable="columnPeriodThreeStartDate" msprop:Generator_ColumnPropNameInRow="PeriodThreeStartDate" msprop:Generator_ColumnPropNameInTable="PeriodThreeStartDateColumn" msprop:Generator_UserColumnName="PeriodThreeStartDate" type="xs:dateTime" />
+              <xs:element name="PeriodThreeAvg" msprop:Generator_ColumnVarNameInTable="columnPeriodThreeAvg" msprop:Generator_ColumnPropNameInRow="PeriodThreeAvg" msprop:Generator_ColumnPropNameInTable="PeriodThreeAvgColumn" msprop:Generator_UserColumnName="PeriodThreeAvg" type="xs:double" />
+              <xs:element name="PeriodThreeCount" msprop:Generator_ColumnVarNameInTable="columnPeriodThreeCount" msprop:Generator_ColumnPropNameInRow="PeriodThreeCount" msprop:Generator_ColumnPropNameInTable="PeriodThreeCountColumn" msprop:Generator_UserColumnName="PeriodThreeCount" type="xs:int" />
+              <xs:element name="PeriodThreeSD" msprop:Generator_ColumnVarNameInTable="columnPeriodThreeSD" msprop:Generator_ColumnPropNameInRow="PeriodThreeSD" msprop:Generator_ColumnPropNameInTable="PeriodThreeSDColumn" msprop:Generator_UserColumnName="PeriodThreeSD" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
